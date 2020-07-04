@@ -79,16 +79,16 @@ Command und Aliases | Beschreibung | Nutzung
 
 Command und Aliases | Beschreibung | Nutzung
 ----------------|--------------|-------
-`:shutdown`, `:quit` | Schaltet den Bot aus. **BOT OWNER ONLY** | `:shutdown`
-`:restart` | Startet den Bot neu. **BOT OWNER ONLY** | `:restart`
-`:avatar` | Setzt einen neuen Avatar. **BOT OWNER ONLY** | `:avatar https://i.imgur.com/iJlPa3V.png`
-`:changegame`, `:game` | Ändert das derzeit spielende Spiel. **BOT OWNER ONLY** | `:changegame Dark Souls`
-`:changestatus` | Ändert den Online Status vom Bot. **BOT OWNER ONLY** | `:changestatus idle`
-`:name` | Ändert den globalen Namen vom Bot. **BOT OWNER ONLY** | `:name Shinobu-chan`
-`:servers` | Listet die aktuellen verbundenen Server auf. **BOT OWNER ONLY** | `:servers`
-`:leaveserver` | Schaltet den Bot aus. **BOT OWNER ONLY** | `:leaveserver 102817255661772800`
-`:echo` | Gibt eine Nachricht als Bot auf einem bestimmten Channel aus. **BOT OWNER ONLY** | `:echo 102817255661772800 Ich bin ein Bot!`
-`:discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `:discriminator 6508`
-`:nickname` | Ändert den Server Nickname vom Bot. **BOT OWNER ONLY** | `:nickname Shinobu`
-`:setnickname` | Ändert den Nickname eines Benutzer. **BOT OWNER ONLY** | `:setnickname @Der-Eddy#6508 Shinobu`
-`:geninvite` | Generiert einen Invite für einen Server wenn möglich. **BOT OWNER ONLY** | `:geninvite 102817255661772800`
+`u!shutdown`, `u!quit` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!shutdown`
+`u!restart` | Startet den Bot neu. **BOT OWNER ONLY** | `u!restart`
+`u!avatar` | Setzt einen neuen Avatar. **BOT OWNER ONLY** | `u!avatar https://image.png`
+`u!changegame`, `u!game` | Ändert das derzeit spielende Spiel. **BOT OWNER ONLY** | `u!changegame Dark Souls`
+`u!changestatus` | Ändert den Online Status vom Bot. **BOT OWNER ONLY** | `u!changestatus idle`
+`u!name` | Ändert den globalen Namen vom Bot. **BOT OWNER ONLY** | `u!name Shinobu-chan`
+`u!servers` | Listet die aktuellen verbundenen Server auf. **BOT OWNER ONLY** | `u!servers`
+`u!leaveserver` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!leaveserver 102817255661772800`
+`u!echo` | Gibt eine Nachricht als Bot auf einem bestimmten Channel aus. **BOT OWNER ONLY** | `u!echo 102817255661772800 Ich bin ein Bot!`
+`u"discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `u!discriminator 6508`
+`u!nickname` | Ändert den Server Nickname vom Bot. **BOT OWNER ONLY** | `u!nickname Shinobu`
+`u!setnickname` | Ändert den Nickname eines Benutzer. **BOT OWNER ONLY** | `u!setnickname @Der-Eddy#6508 Shinobu`
+`u!geninvite` | Generiert einen Invite für einen Server wenn möglich. **BOT OWNER ONLY** | `u!geninvite 102817255661772800`
