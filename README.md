@@ -20,13 +20,13 @@ Utilities+ is a **Discord** Bot made *with **Python*** by Aku & iuri.
 
 ### Generic ###
 
-Command und Aliases | Beschreibung | Nutzung
+Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!help` | Zeigt eine Liste aller öffentlichen Commands | `u!help`, `u!help kawaii`
 
 ### Anime ###
 
-Command und Aliases | Beschreibung | Nutzung
+Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!kawaii` | Gibt ein zufälliges kawaii Bild aus | `u!kawaii`
 `u!nsfw` | Vergibt die Rolle um auf die NSFW Channel zugreifen zu können. **Nur auf Eddys Server!** | `u!nsfw`
@@ -40,7 +40,7 @@ Command und Aliases | Beschreibung | Nutzung
 
 ### Fun ###
 
-Command und Aliases | Beschreibung | Nutzung
+Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!java`, `u!javascript`, `u!nodejs`, `u!js` | Weil Java != Javscript | `u!java`
 `u!csharp`, `u!c++`, `u!c#`, `u!objective-c` | Wie soll man da überhaupt durchblicken??? | `u!csharp`
@@ -58,7 +58,7 @@ Command und Aliases | Beschreibung | Nutzung
 
 ### Mod ###
 
-Command und Aliases | Beschreibung | Nutzung
+Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!purge`, `u!prune` | Löscht mehere Nachrichten auf einmal. **MOD ONLY** | `u!purge 100`
 `u!kick` | Kickt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!kick @Der-Eddy#6508`, `u!kick @Der-Eddy#6508 Spammt Werbung`
@@ -73,7 +73,7 @@ Command und Aliases | Beschreibung | Nutzung
 
 ### Admin ###
 
-Command und Aliases | Beschreibung | Nutzung
+Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!shutdown`, `u!quit` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!shutdown`
 `u!restart` | Startet den Bot neu. **BOT OWNER ONLY** | `u!restart`
