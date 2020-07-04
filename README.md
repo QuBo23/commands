@@ -26,7 +26,7 @@ Commands List
 
 Command und Aliases | Beschreibung | Nutzung
 ----------------|--------------|-------
-`u!help` | Zeigt eine Liste aller öffentlichen Commands | `:help`, `:help kawaii`
+`u!help` | Zeigt eine Liste aller öffentlichen Commands | `u!help`, `u!help kawaii`
 
 ### Anime ###
 
@@ -64,16 +64,16 @@ Command und Aliases | Beschreibung | Nutzung
 
 Command und Aliases | Beschreibung | Nutzung
 ----------------|--------------|-------
-`:purge`, `:prune` | Löscht mehere Nachrichten auf einmal. **MOD ONLY** | `:purge 100`
-`:kick` | Kickt ein Mitglied mit einer Begründung. **MOD ONLY** | `:kick @Der-Eddy#6508`, `:kick @Der-Eddy#6508 Spammt Werbung`
-`:ban` | Bannt ein Mitglied mit einer Begründung. **MOD ONLY** | `:ban @Der-Eddy#6508`, `:ban @Der-Eddy#6508 Spammt Werbung`
-`:unban` | Entbannt ein Mitglied mit einer Begründung. **MOD ONLY** | `:unban 102815825781596160`
-`:bans` | Listet aktuell gebannte User auf. **MOD ONLY** | `:bans`
-`:removereactions` | Entfernt alle Emoji Reactions von einer Nachricht. **MOD ONLY** | `:removereactions 247386709505867776`
-`:permissions` | Listet alle Rechte des Bots auf. **ADMIN OR BOT OWNER ONLY** | `:permissions`
-`:hierarchy` | Listet die Rollen-Hierarchie des derzeitigen Servers auf. **ADMIN OR BOT OWNER ONLY** | `:hierarchy`
-`:setrank`, `:setrole`, `:sr` | Vergibt einen Rang an einem Benutzer. **MOD ONLY** | `:setrole @Der-Eddy#6508 Member`
-`:rmrank`, `:rmrole`, `:removerole`, `:removerank` | Entfernt einen Rang von einem Benutzer. **MOD ONLY** | `:rmrole @Der-Eddy#6508 Member`
+`u!purge`, `u!prune` | Löscht mehere Nachrichten auf einmal. **MOD ONLY** | `u!purge 100`
+`u!kick` | Kickt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!kick @Der-Eddy#6508`, `u!kick @Der-Eddy#6508 Spammt Werbung`
+`u!ban` | Bannt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!ban @Der-Eddy#6508`, `u!ban @Der-Eddy#6508 Spammt Werbung`
+`u!unban` | Entbannt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!unban 102815825781596160`
+`u!bans` | Listet aktuell gebannte User auf. **MOD ONLY** | `u!bans`
+`u!removereactions` | Entfernt alle Emoji Reactions von einer Nachricht. **MOD ONLY** | `u!removereactions 247386709505867776`
+`u!permissions` | Listet alle Rechte des Bots auf. **ADMIN OR BOT OWNER ONLY** | `u!permissions`
+`u!hierarchy` | Listet die Rollen-Hierarchie des derzeitigen Servers auf. **ADMIN OR BOT OWNER ONLY** | `:hierarchy`
+`u!setrank`, `u!setrole`, `u!sr` | Vergibt einen Rang an einem Benutzer. **MOD ONLY** | `u!setrole @Der-Eddy#6508 Member`
+`u!rmrank`, `:rmrole`, `u!removerole`, `u!removerank` | Entfernt einen Rang von einem Benutzer. **MOD ONLY** | `u!rmrole @Der-Eddy#6508 Member`
 
 ### Admin ###
 
