@@ -1,122 +1,235 @@
-<div align="center">
+![Avatar](img/ava.png)
+![Slogan](https://i.imgur.com/vfEgGLU.png)
+=====================
 
-# Utilities +
+[![Python3](https://img.shields.io/badge/python-3.7-blue.svg)](https://github.com/Der-Eddy/discord_bot)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Der-Eddy/discord_bot/master/LICENSE)
+[![Discord Server](https://img.shields.io/badge/Support-Discord%20Server-blue.svg)](https://discord.gg/kPMbPDc)
+
+**ATTENTION: This bot uses the new version of [discord.py v1.0+](https://github.com/Rapptz/discord.py/tree/rewrite), if you want to use my bot with the old legacy discord.py version check out the [legacy branch](https://github.com/Der-Eddy/discord_bot/tree/0.18.10-legacy).**
+This is mostly a german discord chat bot made with [discord.py v1.0+](https://github.com/Rapptz/discord.py).  
+If you are looking for a python discord bot to host for yourself, you should rather take a look at [Red Bot](https://github.com/Twentysix26/Red-DiscordBot) if you want a highly customizable self-hosted python bot. Shinobu is only meant to be run on my own server.
+
+Using `pip install discord.py` will install the latest discord.py version.
+
+Commands List
+-------------
+**Info:** Diese Liste gilt für den Standardprefix `:`
+
+### Generic ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:help` | Zeigt eine Liste aller öffentlichen Commands | `:help`, `:help kawaii`
+
+### Forum ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:epvpis`, `:epvp` | Sucht nach einem Benutzernamen auf Elitepvpers | `:epvpis Der-Eddy`
+`:epvpverify`, `:verify` | Verifiziert einen Discord Benutzer über Elitepvpers | `:epvpverify`, `:epvpverify Der-Eddy`
+
+### Utility ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:status`, `:s`, `:uptime`, `:up` | Listet einige Informationen zum Bot aus | `:status`
+`:ping` | Misst die Response Time | `:ping`
+`:github` | Verlinkt zu diesem GitHub Repo | `:github`
+`:about`, `:info` | Informationen über Shinobu Oshino | `:about`
+`:log`, `:archive` | Archiviert den Log des derzeitigen Channels und läd diesen als Attachment hoch | `:log 10`
+`:invite` | Erstellt einen Invite Link für den derzeitigen Channel | `:invite`
+`:whois` | Gibt Informationen über einen Benutzer aus | `:whois @Der-Eddy#6508`
+`:emoji`, `:e` | Gibt eine vergrößerte Version eines angegebenen Emojis zurück | `:emoji Emilie`
+`:emojis`| Gibt alle Emojis aus auf welche der Bot Zugriff hat | `:emojis`
+`:server`, `:serverinfo`, `:guild`, `:membercount` | Gibt Informationen über die derzeitge Discord Guild aus | `:server`
+`:timer`, `:reminder` | Setzt einen Timer und benachrichtigt einen dann | `:timer 13m Pizza`, `:timer 2h`
+`:source`| Zeigt den Quellcode für einen Befehl auf GitHub an | `:source kawaii`
+`:commands`| Zeigt an wie oft welcher Command benutzt wurde seit dem letzten Startup | `:commands`
+`:roleUsers`| Listet alle Benutzer einer Rolle auf | `:roleUsers Admins`
+`:games` | Zeigt welche Spiele wie oft auf dem Server gerade gespielt werden | `:games`
+`:spoiler` | Erstellt ein GIF Bild welches beim Hover einen Spoiler Text anzeigt | `:spoiler`
+`:ranks`, `:rank`, `:role`, `:roles` | Auflistung aller Ränge oder beitritt eines bestimmten Ranges | `:ranks`, `:ranks Python'`
+`:addvote` | Fügt Emotes als Reactions hinzu für Abstimmungen/Umfragen | `:addvotes`, `:vote`, `:votes`
+
+### Anime ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:kawaii` | Gibt ein zufälliges kawaii Bild aus | `:kawaii`
+`:nsfw` | Vergibt die Rolle um auf die NSFW Channel zugreifen zu können. **Nur auf Eddys Server!** | `:nsfw`
+`:hello`, `:wave`, `:hi`, `:ohaiyo` | Nonsense gifs zum Hallo sagen | `:hello`
+`:nep`, `:nepu`, `:topnep` | Can't stop the Nep | `:nep`
+`:pat` | /r/headpats Pat Pat Pat :3 | `:pat @Der-Eddy#6508`
+`:ratewaifu`, `:rate`, `:waifu` | Bewertet deine Waifu | `:ratewaifu Shinobu`
+`:anime`, `:anilist` | Sucht auf AniList.co nach einem Anime und gibt die Basis-Informationen zurück | `:anime Mushishi`
+`:manga` | Sucht auf AniList.co nach einem Manga und gibt die Basis-Informationen zurück | `:manga Air Gear`
+`:saucenao`, `:sauce`, `:iqdb` | Versucht die Quelle eines Anime Bildes zu finden | `:saucenao https://i.imgur.com/nmnVtgs.jpg`
+
+### Fun ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:java`, `:javascript`, `:nodejs`, `:js` | Weil Java != Javscript | `:java`
+`:csharp`, `:c++`, `:c#`, `:objective-c` | Wie soll man da überhaupt durchblicken??? | `:csharp`
+`:praise` | Praise the sun | `:praise`
+`:css` | Counter Strike: Source | `:css`
+`:countdown` | It's the final countdown | `:countdown`
+`:neko`, `:cat`, `:randomcat` | Zufällige Katzen Bilder nyan~ | `:neko`
+`:random`, `:rand` | Gibt eine zufällige Zahl oder Member aus | `:random`, `:random coin`, `:random 6`, `:random 10 20`, `:random user`
+`:steinigt` | Monty Python | `:steinigt @Ravenstorm#1191`
+`:hype`, `:hypu`, `:train` | HYPE TRAIN CHOO CHOO | `:hype`
+`:xkcd` | Zeigt den letzten oder zufälligen XKCD Comic | `:xkcd`, `:xkcd random`
+`:reaction`, `:r`, `:addreaction` | Fügt der letzten Nachricht ein Emoji als Reaction hinzu oder einer bestimmten Nachricht | `:reaction ok_hand`, `:reaction sunglasses 247386709505867776`
+`:pun`, `:witz`, `:joke` | Weil jeder schlechte Witze mag | `:pun`
+`:tags`, `:tag` | Erstellt tags oder gibt diese aus | `:tags new hentai https://youtu.be/tg3rG-e6haw`, `:tags del 2`, `:tags hentai`
+
+### Mod ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:purge`, `:prune` | Löscht mehere Nachrichten auf einmal. **MOD ONLY** | `:purge 100`
+`:kick` | Kickt ein Mitglied mit einer Begründung. **MOD ONLY** | `:kick @Der-Eddy#6508`, `:kick @Der-Eddy#6508 Spammt Werbung`
+`:ban` | Bannt ein Mitglied mit einer Begründung. **MOD ONLY** | `:ban @Der-Eddy#6508`, `:ban @Der-Eddy#6508 Spammt Werbung`
+`:unban` | Entbannt ein Mitglied mit einer Begründung. **MOD ONLY** | `:unban 102815825781596160`
+`:bans` | Listet aktuell gebannte User auf. **MOD ONLY** | `:bans`
+`:removereactions` | Entfernt alle Emoji Reactions von einer Nachricht. **MOD ONLY** | `:removereactions 247386709505867776`
+`:permissions` | Listet alle Rechte des Bots auf. **ADMIN OR BOT OWNER ONLY** | `:permissions`
+`:hierarchy` | Listet die Rollen-Hierarchie des derzeitigen Servers auf. **ADMIN OR BOT OWNER ONLY** | `:hierarchy`
+`:setrank`, `:setrole`, `:sr` | Vergibt einen Rang an einem Benutzer. **MOD ONLY** | `:setrole @Der-Eddy#6508 Member`
+`:rmrank`, `:rmrole`, `:removerole`, `:removerank` | Entfernt einen Rang von einem Benutzer. **MOD ONLY** | `:rmrole @Der-Eddy#6508 Member`
+
+### Admin ###
+
+Command und Aliases | Beschreibung | Nutzung
+----------------|--------------|-------
+`:shutdown`, `:quit` | Schaltet den Bot aus. **BOT OWNER ONLY** | `:shutdown`
+`:restart` | Startet den Bot neu. **BOT OWNER ONLY** | `:restart`
+`:avatar` | Setzt einen neuen Avatar. **BOT OWNER ONLY** | `:avatar https://i.imgur.com/iJlPa3V.png`
+`:changegame`, `:game` | Ändert das derzeit spielende Spiel. **BOT OWNER ONLY** | `:changegame Dark Souls`
+`:changestatus` | Ändert den Online Status vom Bot. **BOT OWNER ONLY** | `:changestatus idle`
+`:name` | Ändert den globalen Namen vom Bot. **BOT OWNER ONLY** | `:name Shinobu-chan`
+`:servers` | Listet die aktuellen verbundenen Server auf. **BOT OWNER ONLY** | `:servers`
+`:leaveserver` | Schaltet den Bot aus. **BOT OWNER ONLY** | `:leaveserver 102817255661772800`
+`:echo` | Gibt eine Nachricht als Bot auf einem bestimmten Channel aus. **BOT OWNER ONLY** | `:echo 102817255661772800 Ich bin ein Bot!`
+`:discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `:discriminator 6508`
+`:nickname` | Ändert den Server Nickname vom Bot. **BOT OWNER ONLY** | `:nickname Shinobu`
+`:setnickname` | Ändert den Nickname eines Benutzer. **BOT OWNER ONLY** | `:setnickname @Der-Eddy#6508 Shinobu`
+`:geninvite` | Generiert einen Invite für einen Server wenn möglich. **BOT OWNER ONLY** | `:geninvite 102817255661772800`
 
 
-Utilities + is a **Discord** Bot made *by* **Aku, iuri*** for help servers.
+Run
+-------------
+Entweder ihr startet das Script direkt über `python3 main.py` oder erstellt eine systemd unit, ein Beispiel findet ihr unter `discord.service.example`:
 
-[![discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://github.com/Rapptz/discord.py/tree/rewrite)
-[![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
+    [Unit]
+    Description=Shinobu Discord Bot
+    After=multi-user.target
+    [Service]
+    WorkingDirectory=/home/eddy/discord_bot
+    Environment="PYTHONHASHSEED=0"
+    User=eddy
+    Group=eddy
+    ExecStart=/usr/bin/python3 /home/eddy/discord_bot/main.py
+    Type=idle
+    Restart=on-failure
+    RestartSec=15
+    TimeoutStartSec=15
 
+    [Install]
+    WantedBy=multi-user.target
 
-[Website](http://spectrix.me/spectrum/)
-
-[![1,300+ servers](https://discordbots.org/api/widget/320590882187247617.svg)](https://discordbots.org/bot/320590882187247617)
-
-</div>
-
-# Commands:
-## To use Utilities +, you can either mention it, or you can simply use it's prefix, which is `u!` 
-
-
-## Chatbot
-A smart-enough chat bot, made completely by Utilites + Bot Developers
-
-| **Name** | **Description** |
-|:---:|---|
-| @Spectrum#4109 {input} | Mention the bot to chat to it! The input must not be a command (anything below)|
-
-## Fun
-Fun to use commands made for fun ¯\\\_(ツ)_/¯
-
-| **Name** | **Description** |
-|:---:|---|
-| roast | Let Spectrum insult someone or yourself |
-| ship {@user1} {@user2} | Test love between two users|
-| gay-scanner {@user} | See how gAeY another user is. Shows my level of maturity too |
-| combine {word1} {word2} | Makes two words one. For sentances: $combine "a sentance" "cuz y not" |
-| 8ball | Generic. But mine looks better |
-
-## Subreddits (Reddit)
-Posts stuff from subreddits to your discord chat
-
-| **Name** | **Description** |
-|:---:|---|
-| meme | Collects fresh memes from different subreddits |
-| dankmemes | The finest memes on Reddit |
-| showerthought | Random and interesting thoughts |
-| me_irl | Fresh memes from only the best subreddit |
-| hmmm | Cursed images thank make you say "hmmm..!?" |
-| programmerhumor | Humor for programmers |
-| surrealmemes | S u r r e a l  (not for mortals) |
+Nach `/etc/systemd/system/discord.service` kopieren und anpassen. Nicht vergessen die Unit zu starten via `sudo systemctl start discord.service` bzw. Autostart via `sudo systemctl enable discord.service`.
 
 
-## Utility
-Useful commands I guess
+Einstellungen
+-------------
+Vor dem Start muss im Ordner `config` eine Datei namens `config.py` angelegt werden, ein Beispiel einer solchen gibt es in `config.example.py` zu finden:
 
-| **Name** | **Description** |
-|:---:|---|
-| qr {input} | Makes a QR code for you |
-| bigemote {emote} | Converts emoji to png so you can save it |
-| poll {input} | Makes a simple poll so you can vote either yes or no |
+    __token__ = 'INSERT BOT TOKEN HERE'
+    __prefix__ = ':' #OPTIONAL Prefix for all commands, defaults to colon
+    __botserverid__ = 102817255661772800 #OPTIONAL Specifies the main serverid from which the server-/modlog should be taken + some other nito features
+    __kawaiichannel__ = 207909155556687872 #OPTIONAL specified a channel where the :kawaii commands gets this pinned messages
+    __greetmsg__ = '{emoji} Welcome {member} on my server!' #OPTIONAL sends a greet message to new user in the botserverid system channel
+    __leavemsg__ = ':sad: {member} left the server' #OPTIONAL sends a leave message to the botserverid system channel
 
-## Text Conversion
-Mess around with text, encode or decode stuff and more
 
-| **Name** | **Description** |
-|:---:|---|
-| drunkify {input} | RaNdoMizes youR InPUT's cApS AND LoWErCAsE |
-| expand {ammount (1-5) {input} | Adds spaces between  l e t t e r s |
-| reverse {input} | Reverses text |
-| texttohex {input} | Encodes plaintext to hexidecimal (eg: 6f 77 6f)|
-| hextotext {input} | Decodes hexidecimal to plaintext |
-| texttobinary {input} | Encodes plaintext to binary |
-| binarytotext {input} | Decodes binary to plaintext |
+In `games.py` kann man die Titel der "Playing-" Rotation anpassen. Platzhalter wie `{servers}` oder `{members}` sind möglich.
 
-## Info
-Get information about stuff
+    __games__ = [
+        (discord.ActivityType.playing, 'with Eddy-Senpai'),
+        (discord.ActivityType.playing, 'with Cats'),
+        (discord.ActivityType.playing, 'try :help'),
+        (discord.ActivityType.playing, 'try :about'),
+        (discord.ActivityType.playing, 'with VS Code'),
+        (discord.ActivityType.playing, 'with Python'),
+        (discord.ActivityType.playing, 'with async'),
+        (discord.ActivityType.playing, 'with Karen-chan'),
+        (discord.ActivityType.playing, 'with Hinata-chan'),
+        (discord.ActivityType.playing, 'with Eduard Laser'),
+        (discord.ActivityType.watching, 'over {guilds} Server'),
+        (discord.ActivityType.watching, 'over {members} Members'),
+        (discord.ActivityType.watching, 'Trash Animes'),
+        (discord.ActivityType.watching, 'you right now'),
+        (discord.ActivityType.watching, 'Hentai'),
+        (discord.ActivityType.listening, 'Podcasts')
+    ]
+    __gamesTimer__ = 2 * 60 #2 minutes
 
-| **Name** | **Description** | **Usage** |
-|:---:|---|---|
-| user | Get information about a user | info user @someone |
-| server | Get information about the current server | info server |
-| bot | Shows a bit of infomation for Spectrum | info bot |
+Erweiterungen (Cogs) die beim starten aktiviert werden sollen, kann man in `cogs.py` einstellen:
 
-## Game Info
-Shows what the most popular games are in the server and who's playing them
+    __cogs__ = [
+        'cogs.admin',
+        'cogs.mod',
+        'cogs.fun',
+        'cogs.anime',
+        'cogs.utility',
+        'cogs.help'
+        ]
 
-| **Name** | **Description** |
-|:---:|---|
-| currentgames | Shows the most popular games in order from your server |
-| whosplaying {game} | Check who's playing a specific game in your server |
 
-## Moderation
-Extra generic just the way you like it. more coming soon maybe probably
+Support
+-------------
+Gibts auf meinem Discord Server: `https://discord.gg/kPMbPDc`
 
-| **Name** | **Description** |
-|:---:|---|
-| clear {amount} | Purges/deletes an amount of messages from the channel |
-| slowmode {amount} | Puts channel in slowmode with the ammount as an interval |
-| kick {user} {reason} | Kicks the user obviously |
-| ban {user} {reason} | Bans the user obviously |
-| softban {user} {reason} | Bans and unbans the user, so their messages are deleted |
-| giverole {user} {role} | Gives the user a role |
-| removerole {user} {role} | Removes a role from a user |
 
-## Specrypt
-My own, very lightweight form of encryption (secret "language") I made because I was bored.
+Troubleshooting
+-------------
+Sollte z.B. aus irgendeinem Grund die mod.py cog nicht geladen werden, kann der Bot vom Bot Besitzer über `:shutdown_backup` heruntergefahren werden.
+Weitere Tipps folgen
 
-| **Name** | **Description** | **Usage** |
-|:---:|---|---|
-| encrypt (e) | Encrypts plaintext to specrypt | specrypt e `Hello world!` |
-| decrypt (d) | Decrypts specrypted text into plaintext | specrypt d `Tqxx{,c{~xp-` |
+Full list of requirements
+-------------
 
-## Others
-Other boring generic commands
+    python>=3.6.0
+    discord.py>=1.3.0
+    aiohttp
+    websockets
+    chardet
+    pytz
+    pillow
 
-| **Name** | **Description** |
-|:---:|---|
-| ping | Super smexy ping command. Calculates average ping |
-| invite | Sends the link that allows you to add Spectrum to your server |
-| server / support | Sends you to Spectrix's super cool server!!! |
-| help | Sends your here. You should know that tho |
+
+License
+-------------
+    MIT License
+
+    Copyright (c) 2016 Eduard Nikoleisen
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
