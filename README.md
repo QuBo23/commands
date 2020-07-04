@@ -9,7 +9,7 @@ Utilities is a **Discord** Bot made *with **Python*** for fun.
 [![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
 
 
-[Discord](https://discord.gg/gnJcht)
+[Utilities+ Discord](https://discord.gg/gnJcht)
 
 </div>
 
@@ -32,33 +32,33 @@ Command und Aliases | Beschreibung | Nutzung
 
 Command und Aliases | Beschreibung | Nutzung
 ----------------|--------------|-------
-`u!kawaii` | Gibt ein zufälliges kawaii Bild aus | `:kawaii`
-`u!nsfw` | Vergibt die Rolle um auf die NSFW Channel zugreifen zu können. **Nur auf Eddys Server!** | `:nsfw`
-`u!hello`, `:wave`, `:hi`, `:ohaiyo` | Nonsense gifs zum Hallo sagen | `:hello`
-`u!nep`, `:nepu`, `:topnep` | Can't stop the Nep | `:nep`
-`u!pat` | /r/headpats Pat Pat Pat :3 | `:pat @Der-Eddy#6508`
-`u!ratewaifu`, `:rate`, `:waifu` | Bewertet deine Waifu | `:ratewaifu Shinobu`
-`u!anime`, `:anilist` | Sucht auf AniList.co nach einem Anime und gibt die Basis-Informationen zurück | `:anime Mushishi`
+`u!kawaii` | Gibt ein zufälliges kawaii Bild aus | `u!kawaii`
+`u!nsfw` | Vergibt die Rolle um auf die NSFW Channel zugreifen zu können. **Nur auf Eddys Server!** | `u!nsfw`
+`u!hello`, `u!wave`, `u!hi`, `u!ohaiyo` | Nonsense gifs zum Hallo sagen | `u!hello`
+`u!nep`, `u!nepu`, `u!topnep` | Can't stop the Nep | `u!nep`
+`u!pat` | /r/headpats Pat Pat Pat :3 | `u!pat @mention`
+`u!ratewaifu`, `u!rate`, `u!waifu` | Bewertet deine Waifu | `u!ratewaifu Shinobu`
+`u!anime`, `u!anilist` | Sucht auf AniList.co nach einem Anime und gibt die Basis-Informationen zurück | `u!anime Mushishi`
 `u!manga` | Sucht auf AniList.co nach einem Manga und gibt die Basis-Informationen zurück | `:manga Air Gear`
-`u!saucenao`, `:sauce`, `:iqdb` | Versucht die Quelle eines Anime Bildes zu finden | `:saucenao https://i.imgur.com/nmnVtgs.jpg`
+`u!saucenao`, `u!sauce`, `u!iqdb` | Versucht die Quelle eines Anime Bildes zu finden | `u!saucenao https://i.imgur.com/nmnVtgs.jpg`
 
 ### Fun ###
 
 Command und Aliases | Beschreibung | Nutzung
 ----------------|--------------|-------
-`u!java`, `:javascript`, `:nodejs`, `:js` | Weil Java != Javscript | `:java`
-`u!csharp`, `:c++`, `:c#`, `:objective-c` | Wie soll man da überhaupt durchblicken??? | `:csharp`
-`u!praise` | Praise the sun | `:praise`
-`u!css` | Counter Strike: Source | `:css`
-`u!countdown` | It's the final countdown | `:countdown`
-`u!neko`, `:cat`, `:randomcat` | Zufällige Katzen Bilder nyan~ | `:neko`
-`u!random`, `:rand` | Gibt eine zufällige Zahl oder Member aus | `:random`, `:random coin`, `:random 6`, `:random 10 20`, `:random user`
-`u!steinigt` | Monty Python | `:steinigt @Ravenstorm#1191`
-`u!hype`, `:hypu`, `:train` | HYPE TRAIN CHOO CHOO | `:hype`
-`u!xkcd` | Zeigt den letzten oder zufälligen XKCD Comic | `:xkcd`, `:xkcd random`
-`u!reaction`, `:r`, `:addreaction` | Fügt der letzten Nachricht ein Emoji als Reaction hinzu oder einer bestimmten Nachricht | `:reaction ok_hand`, `:reaction sunglasses 247386709505867776`
-`u!pun`, `:witz`, `:joke` | Weil jeder schlechte Witze mag | `:pun`
-`u!tags`, `:tag` | Erstellt tags oder gibt diese aus | `:tags new hentai https://youtu.be/tg3rG-e6haw`, `:tags del 2`, `:tags hentai`
+`u!java`, `u!javascript`, `u!nodejs`, `u!js` | Weil Java != Javscript | `u!java`
+`u!csharp`, `u!c++`, `u!c#`, `u!objective-c` | Wie soll man da überhaupt durchblicken??? | `u!csharp`
+`u!praise` | Praise the sun | `u!praise`
+`u!css` | Counter Strike: Source | `u!css`
+`u!countdown` | It's the final countdown | `u!countdown`
+`u!neko`, `!cat`, `u!randomcat` | Zufällige Katzen Bilder nyan~ | `u!neko`
+`u!random`, `u!rand` | Gibt eine zufällige Zahl oder Member aus | `u!random`, `u!random coin`, `u!random 6`, `u!random 10 20`, `u!random user`
+`u!steinigt` | Monty Python | `u!steinigt @mention`
+`u!hype`, `u!hypu`, `u!train` | HYPE TRAIN CHOO CHOO | `u!hype`
+`u!xkcd` | Zeigt den letzten oder zufälligen XKCD Comic | `u!xkcd`, `u!xkcd random`
+`u!reaction`, `u!r`, `u!addreaction` | Fügt der letzten Nachricht ein Emoji als Reaction hinzu oder einer bestimmten Nachricht | `u!reaction ok_hand`, `u!reaction sunglasses 247386709505867776`
+`u!pun`, `u!witz`, `u!joke` | Weil jeder schlechte Witze mag | `u!pun`
+`u!tags`, `u!tag` | Erstellt tags oder gibt diese aus | `u!tags new hentai https://youtu.be/tg3rG-e6haw`, `u!tags del 2`, `u!tags hentai`
 
 ### Mod ###
 
