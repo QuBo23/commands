@@ -1,9 +1,9 @@
 <div align="center">
 
-# Spectrum
+# Utilities+
 
 
-Spectrum is a **Discord** Bot made *with **Python*** for fun.
+Utilities is a **Discord** Bot made *with **Python*** for fun.
 
 [![discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://github.com/Rapptz/discord.py/tree/rewrite)
 [![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
@@ -14,10 +14,8 @@ Spectrum is a **Discord** Bot made *with **Python*** for fun.
 </div>
 
 # Commands:
-## To use Spectrum, you can either mention it, or you can simply use it's prefix, which is `$` 
+## To use Utilities, you can either mention it, or you can simply use it's prefix, which is `u!` 
 
-![Avatar](img/ava.png)
-![Slogan](https://i.imgur.com/vfEgGLU.png)
 =====================
 
 [![Python3](https://img.shields.io/badge/python-3.7-blue.svg)](https://github.com/Der-Eddy/discord_bot)
