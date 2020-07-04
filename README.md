@@ -41,34 +41,34 @@ Command and Aliases | Description | Example
 
 Command and Aliases | Description | Example
 ----------------|--------------|-------
-`u!java`, `u!javascript`, `u!nodejs`, `u!js` | Weil Java != Javscript | `u!java`
-`u!csharp`, `u!c++`, `u!c#`, `u!objective-c` | Wie soll man da überhaupt durchblicken??? | `u!csharp`
+`u!java`, `u!javascript`, `u!nodejs`, `u!js` | Java != Javscript | `u!java`
+`u!csharp`, `u!c++`, `u!c#`, `u!objective-c` | How are you supposed to see through? | `u!csharp`
 `u!praise` | Praise the sun | `u!praise`
 `u!css` | Counter Strike: Source | `u!css`
 `u!countdown` | It's the final countdown | `u!countdown`
-`u!neko`, `!cat`, `u!randomcat` | Zufällige Katzen Bilder nyan~ | `u!neko`
-`u!random`, `u!rand` | Gibt eine zufällige Zahl oder Member aus | `u!random`, `u!random coin`, `u!random 6`, `u!random 10 20`, `u!random user`
+`u!neko`, `!cat`, `u!randomcat` | Random cats pictures | `u!neko`
+`u!random`, `u!rand` | Returns a random number or member | `u!random`, `u!random coin`, `u!random 6`, `u!random 10 20`, `u!random user`
 `u!steinigt` | Monty Python | `u!steinigt @mention`
 `u!hype`, `u!hypu`, `u!train` | HYPE TRAIN CHOO CHOO | `u!hype`
-`u!xkcd` | Zeigt den letzten oder zufälligen XKCD Comic | `u!xkcd`, `u!xkcd random`
-`u!reaction`, `u!r`, `u!addreaction` | Fügt der letzten Nachricht ein Emoji als Reaction hinzu oder einer bestimmten Nachricht | `u!reaction ok_hand`, `u!reaction sunglasses 247386709505867776`
-`u!pun`, `u!witz`, `u!joke` | Weil jeder schlechte Witze mag | `u!pun`
-`u!tags`, `u!tag` | Erstellt tags oder gibt diese aus | `u!tags new hentai https://youtu.be/tg3rG-e6haw`, `u!tags del 2`, `u!tags hentai`
+`u!xkcd` | Shows the last or random XKCD comic | `u!xkcd`, `u!xkcd random`
+`u!reaction`, `u!r`, `u!addreaction` | Adds an emoji as a reaction to the last message or to a specific message | `u!reaction ok_hand`, `u!reaction sunglasses 247386709505867776`
+`u!pun`, `u!witz`, `u!joke` | Because everyone likes bad jokes | `u!pun`
+`u!tags`, `u!tag` | Creates or outputs tags | `u!tags new hentai https://youtu.be/tg3rG-e6haw`, `u!tags del 2`, `u!tags hentai`
 
 ### Mod ###
 
 Command and Aliases | Description | Example
 ----------------|--------------|-------
-`u!purge`, `u!prune` | Löscht mehere Nachrichten auf einmal. **MOD ONLY** | `u!purge 100`
-`u!kick` | Kickt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!kick @Der-Eddy#6508`, `u!kick @Der-Eddy#6508 Spammt Werbung`
-`u!ban` | Bannt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!ban @Der-Eddy#6508`, `u!ban @Der-Eddy#6508 Spammt Werbung`
-`u!unban` | Entbannt ein Mitglied mit einer Begründung. **MOD ONLY** | `u!unban 102815825781596160`
-`u!bans` | Listet aktuell gebannte User auf. **MOD ONLY** | `u!bans`
-`u!removereactions` | Entfernt alle Emoji Reactions von einer Nachricht. **MOD ONLY** | `u!removereactions 247386709505867776`
-`u!permissions` | Listet alle Rechte des Bots auf. **ADMIN OR BOT OWNER ONLY** | `u!permissions`
-`u!hierarchy` | Listet die Rollen-Hierarchie des derzeitigen Servers auf. **ADMIN OR BOT OWNER ONLY** | `:hierarchy`
-`u!setrank`, `u!setrole`, `u!sr` | Vergibt einen Rang an einem Benutzer. **MOD ONLY** | `u!setrole @Der-Eddy#6508 Member`
-`u!rmrank`, `:rmrole`, `u!removerole`, `u!removerank` | Entfernt einen Rang von einem Benutzer. **MOD ONLY** | `u!rmrole @Der-Eddy#6508 Member`
+`u!purge`, `u!prune` | Deletes multiple messages at once. **MOD ONLY** | `u!purge 100`
+`u!kick` | Kicks a member with a reason. **MOD ONLY** | `u!kick @mention`, `u!kick @mention Spammt Werbung`
+`u!ban` | Bans a member with a reason. **MOD ONLY** | `u!ban @mention`, `u!ban @Der-Eddy#6508 Spammt Werbung`
+`u!unban` | Released a member with a reason. **MOD ONLY** | `u!unban 102815825781596160`
+`u!bans` | Lists currently banned users. **MOD ONLY** | `u!bans`
+`u!removereactions` | Removes all emoji reactions from a message. **MOD ONLY** | `u!removereactions 247386709505867776`
+`u!permissions` | Lists all permissions of the bot. **ADMIN OR BOT OWNER ONLY** | `u!permissions`
+`u!hierarchy` | Lists the role hierarchy of the current server. **ADMIN OR BOT OWNER ONLY** | `:hierarchy`
+`u!setrank`, `u!setrole`, `u!sr` | Assigns a rank to a user. **MOD ONLY** | `u!setrole @mention Member`
+`u!rmrank`, `:rmrole`, `u!removerole`, `u!removerank` | Removes a rank from a user. **MOD ONLY** | `u!rmrole @mention Member`
 
 ### Admin ###
 
@@ -83,7 +83,7 @@ Command and Aliases | Description | Example
 `u!servers` | Listet die aktuellen verbundenen Server auf. **BOT OWNER ONLY** | `u!servers`
 `u!leaveserver` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!leaveserver 102817255661772800`
 `u!echo` | Gibt eine Nachricht als Bot auf einem bestimmten Channel aus. **BOT OWNER ONLY** | `u!echo 102817255661772800 Ich bin ein Bot!`
-`u"discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `u!discriminator 6508`
+`u!discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `u!discriminator 6508`
 `u!nickname` | Ändert den Server Nickname vom Bot. **BOT OWNER ONLY** | `u!nickname Shinobu`
 `u!setnickname` | Ändert den Nickname eines Benutzer. **BOT OWNER ONLY** | `u!setnickname @Der-Eddy#6508 Shinobu`
 `u!geninvite` | Generiert einen Invite für einen Server wenn möglich. **BOT OWNER ONLY** | `u!geninvite 102817255661772800`
