@@ -3,7 +3,7 @@
 # Utilities+
 
 
-Utilities is a **Discord** Bot made *with **Python*** for fun.
+Utilities+ is a **Discord** Bot made *with **Python*** by Aku & iuri.
 
 [![discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://github.com/Rapptz/discord.py/tree/rewrite)
 [![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
@@ -14,7 +14,7 @@ Utilities is a **Discord** Bot made *with **Python*** for fun.
 </div>
 
 # Commands:
-## To use Utilities, you can either mention it, or you can simply use it's prefix, which is `u!` 
+## To use Utilities+, you can either mention it, or you can simply use it's prefix, which is `u!` 
 
 =====================
 
