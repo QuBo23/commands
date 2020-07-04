@@ -14,29 +14,28 @@ Utilities+ is a **Discord** Bot made *with **Python*** by Aku & iuri.
 </div>
 
 # Commands:
-## To use Utilities+, you can either mention it, or you can simply use it's prefix, which is `u!` 
-
+## To use Utilities+, you can either meAssigns the role to access the NSFW Channel
 =====================
 
 ### Generic ###
 
 Command and Aliases | Description | Example
 ----------------|--------------|-------
-`u!help` | Zeigt eine Liste aller öffentlichen Commands | `u!help`, `u!help kawaii`
+`u!help` | Shows a list of all public commands | `u!help`, `u!help kawaii`
 
 ### Anime ###
 
 Command and Aliases | Description | Example
 ----------------|--------------|-------
-`u!kawaii` | Gibt ein zufälliges kawaii Bild aus | `u!kawaii`
-`u!nsfw` | Vergibt die Rolle um auf die NSFW Channel zugreifen zu können. **Nur auf Eddys Server!** | `u!nsfw`
-`u!hello`, `u!wave`, `u!hi`, `u!ohaiyo` | Nonsense gifs zum Hallo sagen | `u!hello`
-`u!nep`, `u!nepu`, `u!topnep` | Can't stop the Nep | `u!nep`
-`u!pat` | /r/headpats Pat Pat Pat :3 | `u!pat @mention`
-`u!ratewaifu`, `u!rate`, `u!waifu` | Bewertet deine Waifu | `u!ratewaifu Shinobu`
-`u!anime`, `u!anilist` | Sucht auf AniList.co nach einem Anime und gibt die Basis-Informationen zurück | `u!anime Mushishi`
-`u!manga` | Sucht auf AniList.co nach einem Manga und gibt die Basis-Informationen zurück | `:manga Air Gear`
-`u!saucenao`, `u!sauce`, `u!iqdb` | Versucht die Quelle eines Anime Bildes zu finden | `u!saucenao https://i.imgur.com/nmnVtgs.jpg`
+`u!kawaii` | Outputs a random kawaii picture | `u!kawaii`
+`u!nsfw` | Assigns the role to access the NSFW Channel. **On Utilities+'s server only!** | `u!nsfw`
+`u!hello`, `u!wave`, `u!hi`, `u!ohaiyo` | Nonsense gifs to say hello | `u!hello`
+`u!nep`, `u!nepu`, `u!topnep` | Can't to stop nep | `u!nep`
+`u!pat` | Pat Pat Pat :3 | `u!pat @mention`
+`u!ratewaifu`, `u!rate`, `u!waifu` | Rate your Waifu | `u!ratewaifu Shinobu`
+`u!anime`, `u!anilist` | Searches for an anime on AniList.co and returns the basic information | `u!anime Mushishi`
+`u!manga` | Searches for a manga on AniList.co and returns the basic information | `:manga Air Gear`
+`u!saucenao`, `u!sauce`, `u!iqdb` | Tries to find the source of an anime picture | `u!saucenao https://i.imgur.com/nmnVtgs.jpg`
 
 ### Fun ###
 
