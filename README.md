@@ -1,3 +1,23 @@
+<div align="center">
+
+# Spectrum
+
+
+Spectrum is a **Discord** Bot made *with **Python*** for fun.
+
+[![discord.py](https://img.shields.io/badge/discord-py-blue.svg)](https://github.com/Rapptz/discord.py/tree/rewrite)
+[![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
+
+
+[Website](http://spectrix.me/spectrum/)
+
+[![1,300+ servers](https://discordbots.org/api/widget/320590882187247617.svg)](https://discordbots.org/bot/320590882187247617)
+
+</div>
+
+# Commands:
+## To use Spectrum, you can either mention it, or you can simply use it's prefix, which is `$` 
+
 ![Avatar](img/ava.png)
 ![Slogan](https://i.imgur.com/vfEgGLU.png)
 =====================
