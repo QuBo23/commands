@@ -11,8 +11,6 @@ Spectrum is a **Discord** Bot made *with **Python*** for fun.
 
 [Discord](https://discord.gg/gnJcht)
 
-[![1300+ servers](https://discordbots.org/api/widget/320590882187247617.svg)](https://discordbots.org/bot/320590882187247617)
-
 </div>
 
 # Commands:
