@@ -16,11 +16,11 @@ Utilities + is a **Discord** Bot made *by* **Aku, iuri*** for help servers.
 </div>
 
 # Commands:
-## To use Spectrum, you can either mention it, or you can simply use it's prefix, which is `$` 
+## To use Utilities +, you can either mention it, or you can simply use it's prefix, which is `u!` 
 
 
 ## Chatbot
-A smart-enough chat bot, made completely by me
+A smart-enough chat bot, made completely by Utilites + Bot Developers
 
 | **Name** | **Description** |
 |:---:|---|
