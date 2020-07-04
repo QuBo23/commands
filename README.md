@@ -18,10 +18,6 @@ Utilities+ is a **Discord** Bot made *with **Python*** by Aku & iuri.
 
 =====================
 
-Commands List
--------------
-**Info:** Diese Liste gilt für den Standardprefix `:`
-
 ### Generic ###
 
 Command und Aliases | Beschreibung | Nutzung
