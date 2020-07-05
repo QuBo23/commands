@@ -60,8 +60,8 @@ Command and Aliases | Description | Example
 Command and Aliases | Description | Example
 ----------------|--------------|-------
 `u!purge`, `u!prune` | Deletes multiple messages at once. **MOD ONLY** | `u!purge 100`
-`u!kick` | Kicks a member with a reason. **MOD ONLY** | `u!kick @mention`, `u!kick @mention Spammt Werbung`
-`u!ban` | Bans a member with a reason. **MOD ONLY** | `u!ban @mention`, `u!ban @Der-Eddy#6508 Spammt Werbung`
+`u!kick` | Kicks a member with a reason. **MOD ONLY** | `u!kick @mention`, `u!kick @mention Spams advertising`
+`u!ban` | Bans a member with a reason. **MOD ONLY** | `u!ban @mention`, `u!ban @mention Spammt Werbung`
 `u!unban` | Released a member with a reason. **MOD ONLY** | `u!unban 102815825781596160`
 `u!bans` | Lists currently banned users. **MOD ONLY** | `u!bans`
 `u!removereactions` | Removes all emoji reactions from a message. **MOD ONLY** | `u!removereactions 247386709505867776`
@@ -74,16 +74,16 @@ Command and Aliases | Description | Example
 
 Command and Aliases | Description | Example
 ----------------|--------------|-------
-`u!shutdown`, `u!quit` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!shutdown`
-`u!restart` | Startet den Bot neu. **BOT OWNER ONLY** | `u!restart`
-`u!avatar` | Setzt einen neuen Avatar. **BOT OWNER ONLY** | `u!avatar https://image.png`
-`u!changegame`, `u!game` | Ändert das derzeit spielende Spiel. **BOT OWNER ONLY** | `u!changegame Dark Souls`
-`u!changestatus` | Ändert den Online Status vom Bot. **BOT OWNER ONLY** | `u!changestatus idle`
-`u!name` | Ändert den globalen Namen vom Bot. **BOT OWNER ONLY** | `u!name Shinobu-chan`
-`u!servers` | Listet die aktuellen verbundenen Server auf. **BOT OWNER ONLY** | `u!servers`
-`u!leaveserver` | Schaltet den Bot aus. **BOT OWNER ONLY** | `u!leaveserver 102817255661772800`
-`u!echo` | Gibt eine Nachricht als Bot auf einem bestimmten Channel aus. **BOT OWNER ONLY** | `u!echo 102817255661772800 Ich bin ein Bot!`
-`u!discriminator` | Gibt Benutzer mit dem jeweiligen Discriminator zurück. **BOT OWNER ONLY** | `u!discriminator 6508`
-`u!nickname` | Ändert den Server Nickname vom Bot. **BOT OWNER ONLY** | `u!nickname Shinobu`
-`u!setnickname` | Ändert den Nickname eines Benutzer. **BOT OWNER ONLY** | `u!setnickname @Der-Eddy#6508 Shinobu`
-`u!geninvite` | Generiert einen Invite für einen Server wenn möglich. **BOT OWNER ONLY** | `u!geninvite 102817255661772800`
+`u!shutdown`, `u!quit` | Turn off the bot. **BOT OWNER ONLY** | `u!shutdown`
+`u!restart` | Restart the bot. **BOT OWNER ONLY** | `u!restart`
+`u!avatar` | Set a new avatar. **BOT OWNER ONLY** | `u!avatar https://image.png`
+`u!changegame`, `u!game` | Changes the game currently playing. **BOT OWNER ONLY** | `u!changegame Dark Souls`
+`u!changestatus` | Changes the online status of the bot. **BOT OWNER ONLY** | `u!changestatus idle`
+`u!name` | Changes the bot's global name. **BOT OWNER ONLY** | `u!name James`
+`u!servers` | Lists the currently connected servers. **BOT OWNER ONLY** | `u!servers`
+`u!leaveserver` | Turn off the bot. **BOT OWNER ONLY** | `u!leaveserver 102817255661772800`
+`u!echo` | Outputs a message as a bot on a specific channel. **BOT OWNER ONLY** | `u!echo 102817255661772800 Hello world!`
+`u!discriminator` | Returns users with the respective discriminator. **BOT OWNER ONLY** | `u!discriminator 6508`
+`u!nickname` | Changes the server nickname of the bot. **BOT OWNER ONLY** | `u!nickname Max`
+`u!setnickname` | Changes a user's nickname. **BOT OWNER ONLY** | `u!setnickname @mention Andrew`
+`u!geninvite` | Generates an invite for a server if possible. **BOT OWNER ONLY** | `u!geninvite 102817255661772800`
