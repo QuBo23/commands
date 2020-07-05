@@ -9,6 +9,8 @@ Utilities+ is a **Discord** Bot made *with **Python*** by Aku & iuri.
 [![python 3.6](https://img.shields.io/badge/python-3.6-orange.svg)](https://www.python.org/)
 
 
+[Invite the Bot](https://discord.com/api/oauth2/authorize?client_id=728514089810264064&permissions=8&scope=bot)
+
 [Utilities+ Discord](https://discord.gg/gnJcht)
 
 </div>
